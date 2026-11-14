@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../logo/Logo';
+import AvailabilityBadge from './AvailabilityBadge';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -40,7 +41,7 @@ function ResponsiveAppBar() {
     <AppBar 
         position="static"
         sx={{
-            
+            backgroundColor: 'white',
             boxShadow: 'none'
         }}
     >
@@ -59,11 +60,12 @@ function ResponsiveAppBar() {
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '1'
+                        gap: '8px'
                     }}
                 >
 
                     <Logo size={36} />
+
                     <Typography
                         variant="h6"
                         noWrap
@@ -81,6 +83,8 @@ function ResponsiveAppBar() {
                     >
                         Christopher John Let
                     </Typography>
+
+                    <AvailabilityBadge />
                 </Box>
                 
 
