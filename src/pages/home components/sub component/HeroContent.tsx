@@ -1,4 +1,5 @@
-import { Box, Typography, Button, Stack, Chip } from "@mui/material";
+import { Box, Typography, Button, Chip } from "@mui/material";
+import Stack from '@mui/material/Stack'
 
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import MailOutlineIcon from '@mui/icons-material/MailOutlined'
@@ -126,8 +127,8 @@ function HeroContent() {
                 <Stack
                     direction= "row"
                     spacing= {1.2}
-                    flexWrap= "wrap"
                     useFlexGap
+                    sx={{ flexWrap: 'wrap'}}
                 >
                     <Button
                         variant= "contained"
@@ -179,20 +180,18 @@ function HeroContent() {
                 {/* Credentials */}
                 <Stack
                     direction= 'row'
-                    alignItems= 'center'
                     spacing= {2}
-                    flexWrap= 'wrap'
                     useFlexGap
-                    sx={{ mt: 3.5 }}
+                    sx={{ alignItems: 'center', flexWrap: 'wrap', mt: 3.5 }}
                 >
 
-                    <Stack direction= 'row' alignItems= 'center' spacing= {0.8}>
+                    <Stack direction= 'row' spacing= {0.8} sx={{ alignItems: 'center' }}>
 
                         <VerifiedIcon
                             sx={{ fontSize: 16, color: '#008399' }}
                         />
 
-                        <Typography fontSize= '12px' color= '#47464A'>
+                        <Typography style={{ fontSize: '12px', color: '#474646' }}>
                             B.S Computer Engineering
                         </Typography>
                     </Stack>
@@ -206,12 +205,12 @@ function HeroContent() {
                         }}
                     />
 
-                    <Stack direction= 'row' alignItems= 'center' spacing={0.8}>
+                    <Stack direction= 'row' spacing={0.8} sx={{ alignItems: 'center' }}>
                         <CodeIcon 
                             sx={{ fontSize: 16, color: '#008399' }}
                         />
 
-                        <Typography fontSize= '12px' color= '#47464'>
+                        <Typography style={{ fontSize: '12px', color: '#474646' }}>
                             Full Component Lifecycle
                         </Typography>
                     </Stack>
