@@ -30,8 +30,10 @@ const AvailabilityBadge = () => {
       <Typography
         sx={{
           fontSize: 14,
+          fontFamily: 'var(--font-mono)',
           color: "#45404A",
           whiteSpace: "nowrap",
+          letterSpacing: "-0.05em"
         }}
       >
         {IS_AVAILABLE ? "Available for work" : "Not available"}

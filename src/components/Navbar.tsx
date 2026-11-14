@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../logo/Logo';
 import AvailabilityBadge from './AvailabilityBadge';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'About', 'Projects', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
     <AppBar 
         position="static"
         sx={{
-            backgroundColor: 'white',
+            backgroundColor: '#F3F0F4',
             boxShadow: 'none'
         }}
     >
