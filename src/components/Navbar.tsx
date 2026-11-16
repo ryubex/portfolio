@@ -11,7 +11,6 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Logo from '../logo/Logo';
 import AvailabilityBadge from './AvailabilityBadge';
 
@@ -39,13 +38,13 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar 
-        position="static"
+        position="sticky"
         sx={{
             backgroundColor: '#FAF9FD',
             boxShadow: 'none'
         }}
     >
-      <Container maxWidth="xl disableGutters">
+        <Container maxWidth="xl disableGutter#FAF9FDs">
             <Toolbar 
                 disableGutters
                 sx={{

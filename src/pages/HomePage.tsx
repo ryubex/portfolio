@@ -1,6 +1,7 @@
 import { Box } from "@mui/material"
 
 import HeroSection from "./home components/HeroSection"
+import Technologies from "./home components/Technologies"
 
 
 
@@ -15,15 +16,19 @@ function HomePage() {
                     md: "calc(100vh - 80px)"
                 },
                 display: 'flex',
+                flexDirection: 'column',
                 alignItems: 'center',
                 position: 'relative',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                bgcolor: '#FAF9FD'
             }}
         >
 
             {/* First Section/Hero Section */}
             <HeroSection />
 
+            {/* Second Section/Technology Section */}
+            <Technologies />
         </Box>
     )
 }

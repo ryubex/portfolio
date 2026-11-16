@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 import HeroContent from "./heroSubSec/HeroContent";
 import HeroVisual from "./heroSubSec/HeroVisual";
