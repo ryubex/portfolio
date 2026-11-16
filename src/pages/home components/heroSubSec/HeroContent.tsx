@@ -21,7 +21,7 @@ function HeroContent() {
             <Box
                 sx={{
                     width: '100%',
-                    maxWidth: '600px'
+                    maxWidth: '680px'
                 }}
             >
 
@@ -43,12 +43,13 @@ function HeroContent() {
                         display: "inline-flex",
                         alignItems: "center",
                         gap: 1,
-                        px: 1.75,
-                        py: 0.75,
+                        px: 2,
+                        py: 1,
+                        mb: 2,
                         bgcolor: "#F3EFF3",
                         borderRadius: "999px",
                         width: "fit-content",
-                        fontSize: 14,
+                        fontSize: 15,
                         fontFamily: 'var(--font-mono)',
                         color: "#45404A",
                         whiteSpace: "nowrap",
@@ -61,7 +62,7 @@ function HeroContent() {
                     sx={{
                         color: '#3B82F6',
                         fontFamily: 'var(--font-mono)',
-                        fontSize: '12px',
+                        fontSize: '14px',
                         fontWeight: 600,
                         letterSpacing: '0.5px',
                         mb: 1
@@ -76,13 +77,13 @@ function HeroContent() {
                     sx={{
                         fontFamily: 'var(--font-heading)',
                         fontSize: {
-                            xs: '40px',
-                            sm: '48px',
-                            md: '54px'
+                            xs: '42px',
+                            sm: '54px',
+                            md: '64px'
                         },
                         fontWeight: 750,
                         lineHeight: 1.05,
-                        letterSpacing: '-2px',
+                        letterSpacing: '-2.5px',
                         color: '#1B1B1E',
                         mb: 1
                     }}
@@ -95,8 +96,8 @@ function HeroContent() {
                     sx={{
                         fontFamily: 'var(--font-body)',
                         fontSize: {
-                            xs: '19px',
-                            md: '23px'
+                            xs: '21px',
+                            md: '27px'
                         },
                         lineHeight: 1.3,
                         color: '#47464A',
@@ -110,8 +111,8 @@ function HeroContent() {
                 <Typography
                     sx={{
                         fontFamily: 'var(--font-body)',
-                        fontSize: '16px',
-                        lineHeight: 1.75,
+                        fontSize: '18px',
+                        lineHeight: 1.7,
                         color: '#47464A',
                         maxWidth: '580px',
                         mb: 2.5
@@ -136,11 +137,11 @@ function HeroContent() {
                         sx={{
                             bgcolor: '#303033',
                             color: 'FFFFFF',
-                            px: 2.5,
-                            py: 1.3,
+                            px: 3,
+                            py: 1.6,
                             borderRadius: '12px',
                             fontFamily: 'var(--font-body)',
-                            fontSize: '12px',
+                            fontSize: '14px',
                             fontWeight: 600,
                             textTransform: 'none',
                             boxShadow: 'none',
@@ -159,11 +160,11 @@ function HeroContent() {
                         sx={{
                             bgcolor: '#FFFFFF',
                             color: '#1B1B1E',
-                            px: 2.5,
-                            py: 1.3,
+                            px: 3,
+                            py: 1.6,
                             borderRadius: '12px',
                             fontFamily: 'var(--font-body)',
-                            fontSize: '12px',
+                            fontSize: '14px',
                             fontWeight: 500,
                             textTransform: 'none',
                             boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
@@ -188,10 +189,10 @@ function HeroContent() {
                     <Stack direction= 'row' spacing= {0.8} sx={{ alignItems: 'center' }}>
 
                         <VerifiedIcon
-                            sx={{ fontSize: 16, color: '#008399' }}
+                            sx={{ fontSize: 19, color: '#008399' }}
                         />
 
-                        <Typography style={{ fontSize: '12px', color: '#474646' }}>
+                        <Typography style={{ fontSize: '14px', color: '#474646' }}>
                             B.S Computer Engineering
                         </Typography>
                     </Stack>

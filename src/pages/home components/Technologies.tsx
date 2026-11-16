@@ -19,7 +19,7 @@ function Technologies() {
                     xs: 6,
                     md: 8
                 },
-                bgcolor: '#FAF9FD'
+                bgcolor: '#F3F0F4'
             }}
         >
 

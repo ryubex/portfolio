@@ -10,20 +10,29 @@ function HeroSection() {
             component= 'section'
             sx={{
                 width: '100%',
-                minHeight: 'calc(100vh - 80px)',
+                minHeight: {
+                    xs: 'auto',
+                    md: 'calc(100vh - 80px)'
+                },
                 display: 'flex',
-                alignItems: 'center',
+                alignItems: {
+                    xs: 'center',
+                    md: "flex-start"
+                },
                 justifyContent: 'center',
                 px: {
                     xs: 3,
                     sm: 5,
                     md: 8
                 },
-                py: {
-                    xs: 6,
+                pt: {
+                    xs: 4,
                     md: 8
                 },
-                bgcolor: '#FAF9FD'
+                pb: {
+                    xs: 5,
+                    md: 4
+                }
             }}
         >
 
@@ -38,9 +47,9 @@ function HeroSection() {
                     },
                     alignItems: 'center',
                     gap: {
-                        xs: 7,
-                        md: 6,
-                        lg: 10
+                        xs: 5,
+                        md: 4,
+                        lg: 6
                     }
                 }}
             >
