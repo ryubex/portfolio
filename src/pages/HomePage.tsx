@@ -1,5 +1,7 @@
 import { Box } from "@mui/material"
 
+import HeroSection from "./home components/HeroSection"
+
 
 
 function HomePage() {
@@ -18,6 +20,9 @@ function HomePage() {
                 overflow: 'hidden'
             }}
         >
+
+            {/* First Section/Hero Section */}
+            <HeroSection />
 
         </Box>
     )

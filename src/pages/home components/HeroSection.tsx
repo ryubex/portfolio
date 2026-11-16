@@ -23,7 +23,7 @@ function HeroSection() {
                     xs: 6,
                     md: 8
                 },
-                bgcolor: '#F3F0F4'
+                bgcolor: '#FAF9FD'
             }}
         >
 

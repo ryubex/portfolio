@@ -12,7 +12,7 @@ const AvailabilityBadge = () => {
         gap: 1,
         px: 1.75,
         py: 0.75,
-        bgcolor: "#F3EFF3",
+        bgcolor: "#F0EDF1",
         borderRadius: "999px",
         width: "fit-content",
       }}
