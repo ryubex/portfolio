@@ -12,7 +12,7 @@ function HeroSection() {
                 width: '100%',
                 minHeight: {
                     xs: 'auto',
-                    md: 'calc(100vh - 80px)'
+                    md: 'auto'
                 },
                 display: 'flex',
                 alignItems: {
@@ -31,7 +31,7 @@ function HeroSection() {
                 },
                 pb: {
                     xs: 5,
-                    md: 4
+                    md: 8
                 }
             }}
         >
